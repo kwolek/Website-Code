@@ -7,45 +7,19 @@
     <meta name="description" content="Aaron Kwolek Personal Website">
     <meta name="author" content="Aaron Kwolek">
     <title>Aaron Kwolek</title>
-    <link rel="icon"       type="image/png"       href="assets\img\favicon.png">
-    <!-- Bootstrap Core CSS -->
+    <link rel="icon"       type="image/png"       href="assets/img/favicon.png">
     <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!-- Retina.js - Load first for faster HQ mobile images. -->
     <script src="assets/js/plugins/retina/retina.min.js"></script>
-    <!-- Font Awesome -->
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!-- Default Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
-    <!-- Modern Style Fonts (Include these is you are using body.modern!) -->
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
-    <!-- Vintage Style Fonts (Include these if you are using body.vintage!) -->
-    <link href='http://fonts.googleapis.com/css?family=Sanchez:400italic,400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
-    <!-- Plugin CSS -->
-    <link href="assets/css/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/background.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/animate.css" rel="stylesheet" type="text/css">
-    <!-- Vitality Theme CSS -->
-    <link href="assets/css/vitality-turquoise.css" rel="stylesheet" type="text/css">
-    <!-- IE8 support for HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+      <!-- Main CSS -->
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
 </head>
-<!-- Alternate Body Classes: .modern and .vintage -->
 
 <body id="page-top">
-    <!-- Navigation -->
-    <!-- Note: navbar-default and navbar-inverse are both supported with this theme. -->
     <nav class="navbar navbar-inverse navbar-fixed-top navbar-expanded">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+          <!-- Navbar button stuff -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -57,7 +31,6 @@
                     <img src="assets/img/logotype-white-small.png" class="img-responsive img-logotype" alt="Aaron Logotype">
                 </a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
@@ -75,18 +48,15 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
-    <header style="background-image: url('assets/img/me/043.jpg');">
+    <header style="background-image: url('assets/img/me/aaronkwolek.jpg');">
         <div class="intro-content">
             <img src="assets/img/logotype-white.png" class="img-responsive img-centered" alt="Homepage Logotype">
             <hr class="colored">
-            <div class="brand-name-subtext">UX  /  Design  /  Technology</div>
+            <div class="brand-name-subtext">UX / Design</div>
         </div>
         <div class="scroll-down">
             <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
@@ -96,10 +66,10 @@
         <div class="container wow fadeIn">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="assets/img/circle-me.png" class="img-responsive" alt="Aaron Kwolek">
+                    <img src="assets/img/circle-me.png" width="300" class="img-responsive img-centered" alt="Aaron Kwolek">
                 </div>
                 <div class="col-md-6 text-center">
-                    <h1>Hi, I'm </br>Aaron Kwolek</h1>
+                    <h1>Hi, I'm <br/>Aaron Kwolek</h1>
                     <hr class="colored">
                     <p>I'm a Master's of Science in Information student at the University of Michigan, currently focused on developing my coding, design, and user experience skills.</p>
                     <p>I'm pursuing a job in User Experience when I graduate to begin my new career.</p>
@@ -162,7 +132,6 @@
             </div>
         </div>
     </aside>
-
     <section id="work" class="bg-gray">
         <div class="container text-center wow fadeIn">
             <h2>Portfolio</h2>
@@ -191,7 +160,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div id="portfoliolist">
-                        <div class="portfolio UX" data-cat="UX" href="#createmyteeModal" data-toggle="modal">
+                        <div class="portfolio UX" data-cat="UX" data-target="#createmyteeModal" data-toggle="modal">
                             <div class="portfolio-wrapper">
                                 <img src="assets/img/portfolio/grid/UX/createmytee.png" alt="CreateMyTee Needs Assessment">
                                 <div class="caption">
@@ -203,7 +172,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio UX" data-cat="UX" href="#lifegoalsModal" data-toggle="modal">
+                        <div class="portfolio UX" data-cat="UX" data-target="#lifegoalsModal" data-toggle="modal">
                             <div class="portfolio-wrapper">
                                 <img src="assets/img/portfolio/grid/UX/lifegoals.png" alt="Life Goals App">
                                 <div class="caption">
@@ -215,7 +184,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal2" data-toggle="modal">
+                        <div class="portfolio graphic" data-cat="graphic" data-target="#uofmflyerModal" data-toggle="modal">
                             <div class="portfolio-wrapper">
                                 <img src="assets/img/portfolio/grid/graphic/flyer.png" alt="Tech Transfer Flyer">
                                 <div class="caption">
@@ -227,7 +196,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio UX" data-cat="UX" href="#portfolioModal3" data-toggle="modal">
+                        <div class="portfolio UX" data-cat="UX" data-target="#techwebsiteModal" data-toggle="modal">
                             <div class="portfolio-wrapper">
                                 <img src="assets/img/portfolio/grid/UX/techtransfer.png" alt="Tech Transfer Website Redesign">
                                 <div class="caption">
@@ -241,7 +210,7 @@
                         </div>
 
 
-                        <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal1" data-toggle="modal">
+                        <div class="portfolio graphic" data-cat="graphic" data-target="#alphabetModal" data-toggle="modal">
                             <div class="portfolio-wrapper">
                                 <img src="assets/img/portfolio/grid/graphic/poster.png" alt="College Football Alphabet Poster">
                                 <div class="caption">
@@ -253,7 +222,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio UX" data-cat="UX" href="#portfolioModal2" data-toggle="modal">
+                        <div class="portfolio UX" data-cat="UX" data-target="#seedModal" data-toggle="modal">
                             <div class="portfolio-wrapper">
                                 <img src="assets/img/portfolio/grid/UX/seed.png" alt="SEED Mobile App">
                                 <div class="caption">
@@ -265,7 +234,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio personal" data-cat="personal" href="#portfolioModal3" data-toggle="modal">
+                        <div class="portfolio personal" data-cat="personal" data-target="#fishModal" data-toggle="modal">
                             <div class="portfolio-wrapper">
                                 <img src="assets/img/portfolio/grid/personal/fish.png" alt="Beercap Fish">
                                 <div class="caption">
@@ -277,19 +246,19 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal4" data-toggle="modal">
+                        <div class="portfolio graphic" data-cat="graphic" data-target="#infographicModal" data-toggle="modal">
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/graphic/infographic.png" alt="ULead Infographic">
+                                <img src="assets/img/portfolio/grid/graphic/infographic.png" alt="Internship Infographic">
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">ULead Infographic</a>
+                                        <a class="text-title">Internship Infographic</a>
                                         <span class="text-category">Graphic Design</span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio personal" data-cat="personal" href="#portfolioModal1" data-toggle="modal">
+                        <div class="portfolio personal" data-cat="personal" data-target="#muralModal" data-toggle="modal">
                             <div class="portfolio-wrapper">
                                 <img src="assets/img/portfolio/grid/personal/beads.png" alt="Videogame Mural">
                                 <div class="caption">
@@ -301,45 +270,7 @@
                                 </div>
                             </div>
                         </div>
-          <!-- comment out the unused sections
-
-                        <div class="portfolio web" data-cat="web" href="#portfolioModal2" data-toggle="modal">
-                            <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/web/4.jpg" alt="">
-                                <div class="caption">
-                                    <div class="caption-text">
-                                        <a class="text-title">OneRepublic</a>
-                                        <span class="text-category">Web Development</span>
-                                    </div>
-                                    <div class="caption-bg"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal3" data-toggle="modal">
-                            <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/graphic/5.jpg" alt="">
-                                <div class="caption">
-                                    <div class="caption-text">
-                                        <a class="text-title">Postable</a>
-                                        <span class="text-category">Graphic Design</span>
-                                    </div>
-                                    <div class="caption-bg"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio identity" data-cat="identity" href="#portfolioModal4" data-toggle="modal">
-                            <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/identity/3.jpg" alt="">
-                                <div class="caption">
-                                    <div class="caption-text">
-                                        <a class="text-title">Simpli Nota</a>
-                                        <span class="text-category">Brand Identity</span>
-                                    </div>
-                                    <div class="caption-bg"></div>
-                                </div>
-                            </div>
-                        </div>
-          -->
+                        <!-- More modal windows get put here -->
                     </div>
                 </div>
             </div>
@@ -424,20 +355,16 @@
                         </li>
                         <li><a href="https://www.linkedin.com/in/kwolek"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
                         </li>
+                        <li><a href="mailto:kwolekaa@gmail.com"><i class="fa fa-envelope fa-fw fa-2x"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <!--
-            <div class="row copyright">
-                <div class="col-lg-12">
-                    <p class="small">&copy; 2015 Aaron Kwolek</p>
-                </div>
-            </div>
-          -->
         </div>
     </footer>
-    <!-- Portfolio Modals -->
-    <!-- CreateMyTee -->
+
+<!-- Portfolio Modals -->
+<!-- CreateMyTee -->
     <div class="portfolio-modal modal fade" id="createmyteeModal" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/background-black.png')">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -450,11 +377,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-                            <a href="http://www.createmytee.com"><img src="assets/img/portfolio/client logos/createmytee.png" class="img-responsive img-centered" alt=""></a>
+                            <a href="http://www.createmytee.com"><img src="assets/img/portfolio/clientlogos/createmytee.png" class="img-responsive img-centered" alt="CreateMyTee Logo"></a>
                             <h3>Usability Testing and Needs Assessment</h3>
                             <hr class="colored">
                                <p>Working with three other classmates, I completed a full usability evaluation for CreateMyTee. I acted in each role of the process, doing everything from interviewing clients, to creating personas, to coordinating usability evaluations.</p>
-                          </br><p>We followed a six step process to complete the assessment.</p>
+                          <br/><p>We followed a six step process to complete the assessment.</p>
                                <ul class="modal-list col-xs-12 col-md-6">
                                  <li>Interaction map</li>
                                  <li>Interviews</li>
@@ -466,25 +393,25 @@
                                  <li>Usability Tests</li>
                                </ul>
                         <p>This video summarizes the work we did with CreateMyTee.  I narrated the video, briefly explaining each step of the process so anyone can understand what went into the analysis, then detailed the findings and recommendations we developed.  I was also the main editor of the video.</p>
-                        </div>
-                          </br>
+
+                          <br/>
                         <div class="col-lg-12">
                             <div class="videoWrapper">
-                              <iframe width="560" height="349" src="https://www.youtube.com/embed/b35OwGuSZ2A" frameborder="0" allowfullscreen></iframe>
+                              <iframe style="border:0;" width="560" height="349" src="https://www.youtube.com/embed/b35OwGuSZ2A" allowfullscreen></iframe>
                             </div>
                             <div class="spacer"></div>
+                            <h3>The Process</h3>
                             <p>We worked with CreateMyTee and their customers to find what improvements could be made to their website.  We did this by conducting interviews, surveys, comparative analyses, and heuristic evaluations.  We then tested our findings with usability tests to see if our findings translated to how people actually used the site.  We then came up with multiple recommedations for the company, some of which they've already implemented.</p>
                             <div class="col-md-6">
                               <h4>Comparative Analysis Summary</h4>
-                              <img src="assets/img/portfolio/createmytee/comparative.png" class="img-responsive img-centered" alt="Comparative Analysis">
+                              <a target="_blank" href="assets/img/portfolio/createmytee/comparative.png"><img src="assets/img/portfolio/createmytee/comparative.png" class="img-responsive img-centered" alt="Comparative Analysis"></a>
                             </div>
                             <div class="col-md-6">
                               <h4>Heuristic Evaluation Summary</h4>
-                              <img src="assets/img/portfolio/createmytee/heuristic.png" class="img-responsive img-centered" alt="Heuristic Analysis">
+                              <a target="_blank" href="assets/img/portfolio/createmytee/heuristic.png"><img src="assets/img/portfolio/createmytee/heuristic.png" class="img-responsive img-centered" alt="Heuristic Analysis"></a>
                             </div>
                         </div>
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <ul class="list-inline item-details">
+                        <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://www.createmytee.com">CreateMyTee</a>
                                     </strong>
@@ -499,13 +426,14 @@
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Life Goals Modal -->
+<!-- Life Goals Modal -->
     <div class="portfolio-modal modal fade" id="lifegoalsModal" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/background-black.png')">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -528,35 +456,62 @@
                                 <li>Clickable Comp in Proto.io</li>
                               </ul>
                             <p>The clickable comp below showcases one pathway the user could use while interacting with the app.  This specific comp shows the user accessing a wellness module and what it would look like, along with partial functionality of the nav bar.</p>
-                            <p>Click the button below to view my work in Proto.io.</p>
+                            <br/>
+                            <a class="btn btn-outline-light page-scroll" href="https://umichott.proto.io/share/?id=5783c6e7-2bb7-4e74-8fba-b1732b539ca8&v=1">Click to view the Life Goals Wireframe</a>
+                        <div class="col-xs-12">
+                            <img src="assets/img/portfolio/lifegoals/lifegoalsscreen.png" class="img-responsive img-centered" alt="Life Goals Screenshot">
                         </div>
-                        <div class="col-lg-12">
-                            <img src="assets/img/portfolio/mobile-screens.png" class="img-responsive img-centered" alt="">
+                        <div class="spacer"></div>
+                        <div class="col-xs-12">
+                          <h3>The Process</h3>
+                        <p>The goal of our work at the <a href="http://www.techtransfer.umich.edu/">University of Michigan Office of Tech Transfer</a> is not to design an application for our clients, but instead to give them all of the tools they need in order to get <strong>sponsorship</strong> from potential investors and baseline <strong>development</strong> started.</p>
+                        <br/>
+                        <div class="col-xs-12 col-lg-6">
+                        <h4>Use Cases</h4>
+                        <p>I began the assignment by interviewing the client to get a background of their Life Goals, as well as to understand their needs and the needs of their patients.
+                        Next, I worked to create use cases for their potential application.  We required them to conduct interviews with potential customers to better understand their needs and get some early stage input from these users.
+                        Using this data, and the notes I took during the initial interview, I created use cases for how the application will be used.</p>
+                        <br/>
                         </div>
-                        <div class="col-lg-8 col-lg-offset-2">
+                        <div class="col-xs-12 col-lg-6">
+                        <h4>Lo-Fi Wireframes</h4>
+                        <p>I then worked to create wireframes for the application, confirming that all use cases are satisfied.
+                        The goal of the wireframes was not to design how the application will look, but rather to illustrate the ideas of the client and to better understand the goals of the application to maximize the utility of the customer.
+                        We use Balsamiq specifically for this reason.  It looks rough, which keeps the customer from becoming too attached to how the wireframe looks, and instead focusing on functionality.</p>
+                        <br/>
+                        </div>
+                        <div class="col-xs-12">
+                        <h4>Hi-Fi Wireframes</h4>
+                        <p>Finally, I used the criticisms the client gave me on my wireframe to design a high-fi wireframe of their potential application.  This includes attractive graphics and clickability, but doesn't include design.
+                        This is the wireframe you can view above on Proto.io.</p>
+                        <br/>
+                        </div>
+                        </div>
+                        <div class="col-xs-12">
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    <strong><a href="http://www.lifegoalscc.com">Life Goals Collaborative Care</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2015</a>
+                                    <strong>October 2015
                                     </strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong>User Experience Design
                                     </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
+                      </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Example Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/portfolio/bg-2.jpg')">
+<!-- Tech Transfer Flyer -->
+    <div class="portfolio-modal modal fade" id="uofmflyerModal" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/background-black.png')">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -568,38 +523,53 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-                            <img src="assets/img/client-logos/logo-2.png" class="img-responsive img-centered" alt="">
-                            <h2>Project Title</h2>
+                            <h2>Digital Discovery Flyer</h2>
                             <hr class="colored">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
+                            <p>The <a href="http://www.techtransfer.umich.edu/">University of Michigan Office of Tech Transfer</a> Department came to me in between my work with clients with a special request.  They wished to have a flyer they could give to clients when they are explaining the "Digital Discovery Process".  I created this flyer based on their guidelines and my understanding of what goes into the process.</p>
+                        <div class="col-xs-12">
+                            <a target="_blank" href="assets/img/portfolio/flyer.png"> <img width=500 src="assets/img/portfolio/flyer.png" class="img-responsive img-centered" alt="Tech Transfer Flyer"></a>
                         </div>
-                        <div class="col-lg-12">
-                            <img src="assets/img/portfolio/tablet-screens.png" class="img-responsive img-centered" alt="">
+                        <div class="spacer"></div>
+                        <div class="col-xs-12">
+                        <h3>The Process</h3>
+                        <p>I designed this flyer in order to tell a story to the potential clients.  This flyer shows them what they had before the process, what they will go through during the prcoess, and what they will be ready to accomplish afterwards.</p>
+                        <br/>
                         </div>
-                        <div class="col-lg-8 col-lg-offset-2">
+                        <div class="col-sm-6">
+                        <h4>My Design</h4>
+                        <p>My first draft barely resembles my final draft.  Over time, I started to understand what they wanted from this flyer, and that they wanted more than a simple list of objectives the client will reach.  The final draft instead shows with graphics instead of explains with a list.  Everything inside the arrow is what the user will go through as they work through the Digital Discovery Process with us.</p>
+                        <br/>
+                        </div>
+                        <div class="col-sm-6">
+                        <h4>What I learned</h4>
+                        <p>Creating this flyer was a fantastic learning experience for me.  I learned, with a real client, how to creatively explain ideas and objectives in an interesting manner.</p>
+                        <br/>
+                        </div>
+                        <div class="col-xs-12">
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    <strong><a href="http://www.techtransfer.umich.edu/">University of Michigan Office of Tech Transfer</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2015</a>
+                                    <strong>July 2015
                                     </strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong>Graphic Design
                                     </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
+                      </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Example Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/portfolio/bg-3.jpg')">
+<!-- Tech Transfer Website -->
+    <div class="portfolio-modal modal fade" id="techwebsiteModal" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/background-black.png')">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -611,38 +581,62 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-                            <img src="assets/img/client-logos/logo-1.png" class="img-responsive img-centered" alt="">
-                            <h2>Project Title</h2>
+                            <h2>Tech Transfer Website Redesign</h2>
                             <hr class="colored">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
+                            <p>I analyzed and redesigned the <a href="http://techtransfer.umich.edu/">University of Michigan Tech Transfer Department</a> Invention Submission Website.  This is the website used by University of Michigan affiliated staff and faculty to submit their startup proposals to our department.</p>
+                          <a class="btn btn-outline-light page-scroll" href="https://umichott.proto.io/share/?id=ecae233e-3d75-46f4-adbc-bc85a83839bd&v=1">Click to view my Tech Transfer Invention Submission Prototype</a>
+                       <div class="col-sm-6">
+                       <h4>Old Website</h4>
+                       <p>This is an exmaple of what the old website looked like, as well as my notes on what problems it has and recommendations on how to fix them.</p>
+                       <a target="_blank" href="assets/img/portfolio/techwebsite/Step-3-v2.png"> <img src="assets/img/portfolio/techwebsite/Step-3-v2.png" class="img-responsive img-centered" alt="Old Tech Transfer Website"></a>
+                       </div>
+                       <div class="col-sm-6">
+                       <h4>Redesigned Website</h4>
+                       <p>Below is a screenshot of a redesigned page of the website.  It's the same section as the page on the left, demonstrating the change I implemented in the websites.</p>
+                       <a target="_blank" href="assets/img/portfolio/techwebsite/website-redesign-associated-forms.png"> <img src="assets/img/portfolio/techwebsite/website-redesign-associated-forms.png" class="img-responsive img-centered" alt="Redesigned Tech Transfer Website"></a>
+                       <br/>
+                       </div>
+                        <br/>
+                        <div class="col-xs-12">
+                        <h3>The Process</h3>
+                        <p>I was asked to redesign the website because of it's confusing layout and outdated tone.  Therefore, my main goals were to identify the main usability problems, perform a comparative and heuristic evaluation, come up with recommendations, then implement my examples.</p>
+                         <br/>
                         </div>
-                        <div class="col-lg-12">
-                            <img src="assets/img/portfolio/mobile-screens.png" class="img-responsive img-centered" alt="">
+                        <div class="col-xs-12 col-sm-6">
+                        <h4>My Role</h4>
+                        <p>My main role was deciding which concepts of American culture we should teach students, as well as how to effectively transfer the knowledge.  I also was the lead in creating the video we submitted -- embedded below.</p>
+                         <br/>
                         </div>
-                        <div class="col-lg-8 col-lg-offset-2">
+                        <div class="col-xs-12 col-sm-6">
+                        <h4>The Concept</h4>
+                        <p>We decided that it was most important to teach students concepts that would make them feel more comfortable in their new American setting, focusing on that lets them feel like they actually belong in most conversations or situations.  A couple examples are how to react to sneezing, or who famous American pop culture stars are; things you wouldn't think of to Google when traveling to the USA.</p>
+                         <br/>
+                        </div>
+                          <div class="col-lg-8 col-lg-offset-2">
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    <strong><a href="http://techtransfer.umich.edu/">University of Michigan Office of Tech Transfer</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2015</a>
+                                    <strong>August 2015
                                     </strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong>User Experience
                                     </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
+                  </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Example Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/portfolio/bg-4.jpg')">
+<!-- Alphabet Poster -->
+    <div class="portfolio-modal modal fade" id="alphabetModal" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/background-black.png')">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -654,36 +648,251 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-                            <img src="assets/img/client-logos/logo-2.png" class="img-responsive img-centered" alt="">
-                            <h2>Project Title</h2>
+                            <h2>College Football Alphabet Poster</h2>
                             <hr class="colored">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
+                            <p>In my graphic design class I was tasked with creating an alphabet poster.  Since I love college sports, I decided to use universities and their logos as the basis for my project.  It seemed like an ideal match to me because of the block letters and different logos available for each school.</p>
+                        <div class="col-xs-12">
+                            <a target="_blank" href="assets/img/portfolio/poster.png"> <img width=500 src="assets/img/portfolio/poster.png" class="img-responsive img-centered" alt="College Football Alphabet Poster"></a>
                         </div>
-                        <div class="col-lg-12">
-                            <img src="assets/img/portfolio/tablet-screens.png" class="img-responsive img-centered" alt="">
+                      <br/>
+                        <div class="col-xs-12">
+                        <h3>The Process</h3>
+                        <p>I used the the universities' primary colors for the background and secondary color for the font color.  I also did research on what the respective fans of each school say to cheer on their team and included that with each of the logos to personalize it a little more for each school.</p>
+                         <br/>
+                        <p>The NCAA and the respective universities own all of the rights to the logos, block letters, colors and their combinations, and any other information I used.</p>
+                        <br/>
                         </div>
-                        <div class="col-lg-8 col-lg-offset-2">
+                          <div class="col-xs-12">
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    <strong><a href="http://si.umich.edu/">University of Michigan School of Information</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2015</a>
+                                    <strong>March 2015
                                     </strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong>Graphic Design
                                     </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
+                  </div>
                 </div>
             </div>
         </div>
     </div>
+<!-- Seed -->
+    <div class="portfolio-modal modal fade" id="seedModal" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/background-black.png')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <h2>SEED</h2>
+                            <h3>Culture Shock Assistance</h3>
+                            <hr class="colored">
+                            <p>With a team of three other students, I submitted a mobile app to the <a href="https://chi2015.acm.org/">Computer Human Interaction Conference</a> in Seoul, Korea.  The app is a gamification of learning American culture, targeted at international students coming to the USA.  It's goal is to provide comprehensive aid to students experiencing culture shock.</p>
+                        <div class="col-xs-12">
+                            <a target="_blank" href="assets/img/portfolio/seed/seed-poster.png"> <img width=500 src="assets/img/portfolio/seed/seed-poster.png" class="img-responsive img-centered" alt="Seed Submission Poster"></a>
+                        </div>
+                        <br/>
+                        <div class="col-xs-12">
+                        <h3>The Process</h3>
+                        <p>The theme of CHI 2015 was Crossings.  Crossings included borders, cultures, technology, or anything else you could think of.  We worked to cross cultures for international students in the USA.</p>
+                         <br/>
+                        <h4>My Role</h4>
+                        <p>My main role was deciding which concepts of American culture we should teach students, as well as how to effectively transfer the knowledge.  I also was the lead in creating the video we submitted -- embedded below.</p>
+                         <br/>
+                        <h4>The Concept</h4>
+                        <p>We decided that it was most important to teach students concepts that would make them feel more comfortable in their new American setting, focusing on that lets them feel like they actually belong in most conversations or situations.  A couple examples are how to react to sneezing, or who famous American pop culture stars are; things you wouldn't think of to Google when traveling to the USA.</p>
+                         <br/>
+                        <h4>The Visualization</h4>
+                        <p>We decided to use trees as a visualization of how the user is progressing through the app.  As the tree grows, so does their understanding of American culture, and their feeling of inclusion in the culture increases.</p>
+                        <br/>
+
+                        <div class="videoWrapper">
+                          <iframe style="border:0;" width="560" height="349" src="https://www.youtube.com/embed/5MyZi8a0vLA" allowfullscreen></iframe>
+                        </div>
+                        <div class="spacer"></div>
+                          <div class="col-xs-12">
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="https://chi2015.acm.org/">Computer Human Interaction Conference</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>January 2015
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong>User Experience
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Beercap Fish -->
+    <div class="portfolio-modal modal fade" id="fishModal" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/background-black.png')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-lg-8 col-lg-offset-2">
+                          <h2>Beercap Fish</h2>
+                          <hr class="colored">
+                          <p>In the summer between my two grad school years, I decided to fill my free time with an art project instead of videogames and movies.  The end result was the wooden fish you see below.</p>
+                          <a target="_blank" href="assets/img/portfolio/fish/fish-full.png"> <img width=800 src="assets/img/portfolio/fish/fish.png" class="img-responsive img-centered" alt="Beercap Fish"></a>
+                        <br>
+                        <h3>The Process</h3>
+                        <div class="col-xs-12 col-sm-6">
+                        <h4>Prep Work</h4>
+                        <p>I began by researching the animal to use.  I landed on a fish since it's easy to identify, has scales, and would be simple to cut.  I then made the wood stain from sratch, by dissolving steel wool in vinegar.  Finally, I decided on the wood to use.  I decided to go with pine, using plywood for the body, and  directional lumber for the head.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                        <h4>Getting Started</h4>
+                        <p>I began by hammering the nearly 1,000 beercaps I accumulated over the previous 5 years flat; this made them easier to attach to the body.  I then bought the wood, cut it, and glued the head and tail to the body.  Finally, I started gluing the caps to the body using silicon.  The finishing touch was the orange eye, which I made with a soup can lid.</p>
+                        </div>
+                        <div class="col-xs-12">
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="http://www.aaronkwolek.com/">Me!</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong>August 2015
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong>Personal Projects
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Internship Infographic -->
+    <div class="portfolio-modal modal fade" id="infographicModal" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/background-black.png')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-lg-8 col-lg-offset-2">
+                          <h2>Internship Infographic</h2>
+                          <hr class="colored">
+                          <p>I created an infographic representing my time working for the <a target="_blank" href="http://techtransfer.umich.edu/">University of Michigan Tech Transfer Department</a>.</p>
+                          <a target="_blank" href="assets/img/portfolio/infographic/infographic-full.png"> <img src="assets/img/portfolio/infographic/infographic.png" class="img-responsive img-centered" alt="uLEAD Infographic"></a>
+                        <br>
+                        <h3>The Process</h3>
+                        <p>My goal was to tell a story using vectors of my dog, <a target="_blank" href="assets/img/portfolio/infographic/zoe.jpg">Zoe</a>.  I created the infographic with Adobe Illustrator, using assets that I created myself.</p>
+                        <div class="col-xs-12">
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a target="_blank" href="http://si.umich.edu">University of Michigan</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong>January 2016
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong>Graphic Design
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Video Game Mural -->
+    <div class="portfolio-modal modal fade" id="muralModal" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/background-black.png')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                       <div class="col-lg-8 col-lg-offset-2">
+                           <h2>Videogame Mural</h2>
+                           <hr class="colored">
+                           <p>During the winter of my first year of grad school, I spent my down time on an art project to embody the videogames of my childhood.  I then made it look professional by building a frame for it with my dad to keep it safe and looking pristine.  The result was the mural you see below.</p>
+                           <a target="_blank" href="assets/img/portfolio/perler/beads-full.png"> <img width=800 src="assets/img/portfolio/perler/beads.png" class="img-responsive img-centered" alt="Videogame Mural"></a>
+                        <br>
+                           <h3>The Process</h3>
+                           <p>I was inspired to do this project by seeing a <a target="_blank" href="assets/img/portfolio/perler/lego.jpg">similar mural made out of legos</a> on the internet.  I wanted something like it, but personalized to me.  I figured, who better to make it but me</p>
+                           <div class="col-xs-12 col-sm-6">
+                              <h4>Prep Work</h4>
+                              <p>I started by deciding on the medium to use.  The legos necessary to create this would cost over $3,000, which wasn't an option for a poor grad student.  I did further research and discovered perler beads, which cost less than $100 for all the materials I used and had a wide variety of colors.  The last step was simply choosing the characters I would want to use, which was the definitely the most fun part.</p>
+                           </div>
+                           <div class="col-xs-12 col-sm-6">
+                              <h4>Getting Started</h4>
+                              <p>The whole process was quite simple.  Place the beads on a grid one by one, eventually forming the picture I wanted to make.  I then took the beads off the grid with tape and repeated the process, eventually fusing them all together with an iron.  The final step was building a frame, painting it, and sealing it.  Simple as it is, it's also extremely time consuming, taking over 100 hours to complete.</p>
+                           </div>
+                           <div class="col-xs-12">
+                             <ul class="list-inline item-details">
+                               <li>Client:
+                                  <strong><a href="http://www.aaronkwolek.com/">Me!</a>
+                                  </strong>
+                               </li>
+                               <li>Date:
+                                  <strong>March 2015
+                                  </strong>
+                               </li>
+                               <li>Service:
+                                  <strong>Personal Projects
+                                  </strong>
+                               </li>
+                             </ul>
+                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                          </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Core Scripts -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
@@ -700,7 +909,7 @@
     <script src="assets/js/plugins/wow/wow.min.js"></script>
     <script src="assets/js/contact_me.js"></script>
     <script src="assets/js/plugins/jqBootstrapValidation.js"></script>
-    <!-- Vitality Theme Scripts -->
+    <!-- Main Script -->
     <script src="assets/js/vitality.js"></script>
 </body>
 
